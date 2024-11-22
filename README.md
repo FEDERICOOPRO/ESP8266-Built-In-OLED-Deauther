@@ -34,6 +34,7 @@ Make sure to import theese 2 links https://arduino.esp8266.com/stable/package_es
 **Please don't refer to this project as "jammer", that totally undermines the real purpose of this project!**
 If you do, it only proves that you didn't understand anything of what this project stands for. Publishing content about this without a proper explaination shows that you only do it for the clicks, fame and/or money and have no respect for intellectual property, the community behind it and the fight for a better WiFi standard!  
 
+![Building Scheme (customizable)'](https://raw.githubusercontent.com/FEDERICOOPRO/ESP8266-Built-In-OLED-Deauther/img/image.png)  
 ## Credits
 A huge thanks to:
 - [@deantonious](http://github.com/deantonious)
