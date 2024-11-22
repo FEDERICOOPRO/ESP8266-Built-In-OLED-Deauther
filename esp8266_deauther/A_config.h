@@ -26,17 +26,17 @@
 // === Settings for Digital LED === //
 #define LED_ENABLE_R true
 #define LED_ENABLE_G false
-#define LED_ENABLE_B true
+#define LED_ENABLE_B false
 
 // === Settings for Digital LED and RGB LED === //
-#define LED_CATHODE false // common ground (GND)
+#define LED_CATHODE true // common ground (GND)
 #define LED_PIN_R 2       // ESP-12 LED
 #define LED_PIN_G 19
-#define LED_PIN_B 20      // NodeMCU on-board LED
+#define LED_PIN_B 0     // NodeMCU on-board LED 
 
 // === Settings for RGB LED and Neopixel LED === //
 #define LED_MODE_BRIGHTNESS 10 // brightness of LED modes 
-#define LED_DYNAMIC_BRIGHTNESS false // brightness in scan mode depending on packet rate and deauths per second
+#define LED_DYNAMIC_BRIGHTNESS true // brightness in scan mode depending on packet rate and deauths per second
 
 // === Settings for Neopixel LED === //
 #define LED_NEOPIXEL_NUM 1
